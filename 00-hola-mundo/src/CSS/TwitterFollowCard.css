@@ -1,0 +1,53 @@
+.btnArticleFollowCard {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 0.8rem;
+  padding: 5px;
+  /* justify-content: space-between; */
+}
+
+.btnArticleFollowCard header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.btnArticleFollowCard img {
+  width: 50px;
+  height: 50px;
+  border-radius: 1000px;
+}
+
+.btnArticleFollowCard header div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.btnArticleFollowCard header span {
+  opacity: 0.6;
+}
+
+.btnArticleFollowCard aside {
+  width: 50px;
+}
+
+
+.btnArticleFollowCard button {
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+}
+
+.btnArticleFollowCard .Siguiendo:hover {
+  background-color: lightcoral;
+}
+
+.btnArticleFollowCard .Seguir:hover {
+  background-color: aqua;
+  transition: 0.3s ease background-color;
+}
